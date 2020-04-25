@@ -32,8 +32,9 @@
         <source src="#" type="video/mp4">
         Your browser does not support the video tag.
         </video>
-        <form id="form">
-            <input id="email" placeholder="#email"> 
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" placeholder="#email" type="email" name="email" pattern="[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*" required>  
+            <input id ="submit" type="submit"  value="Submit">
         </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
